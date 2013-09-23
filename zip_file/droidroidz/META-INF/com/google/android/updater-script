@@ -1,0 +1,8 @@
+ui_print("MantaRoidZ");
+ui_print("23%...");
+ui_print("50%...");
+ui_print("77%...");
+ui_print("100%..");
+package_extract_file("boot.img", "/dev/block/platform/dw_mmc.0/by-name/boot");
+ui_print("DONE, enjoy..  :)");
+set_progress(1.000000);
